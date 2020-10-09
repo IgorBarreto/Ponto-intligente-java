@@ -1,5 +1,5 @@
 language: java
-# use Java 8
 jdk:
-  - openjdk
-scripts: ./mvnw clean install
+  - openjdk8
+before_install:
+  - chmod +x mvnw
